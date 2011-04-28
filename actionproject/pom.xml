@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.nuxeo.cookbook</groupId>
-  <artifactId>emptyproject</artifactId>
+  <artifactId>actionproject</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>emptyproject</name>
+  <name>actionproject</name>
   <url>http://maven.apache.org</url>
 
   <parent>
@@ -16,5 +16,6 @@
     <version>1.0.0</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
+ 
 
 </project>

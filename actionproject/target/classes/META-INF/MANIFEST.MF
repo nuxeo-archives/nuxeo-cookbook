@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 1
+Bundle-Name: cookbook-basic-bundle
+Bundle-SymbolicName: org.nuxeo.cookbook.basic;singleton:=true
+Bundle-Version: 0.0.1
+Bundle-Vendor: Nuxeo
+Nuxeo-Component: OSGI-INF/action-contrib.xml
+
