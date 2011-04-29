@@ -5,7 +5,11 @@
         <action icon="/icons/asterisk_orange.png" id="myAction"
             label="An other way ot send emails." link="send_email" order="17">
             <category>DOCUMENT_UPPER_ACTION</category>
-            <filter-id>not_folder</filter-id>
+	     <filter id="cookbook_action_filter">
+		<rule grant="false">
+		    <facet>Folderish</facet>
+		</rule>
+	     </filter>
         </action>
     </extension>
 </component>
